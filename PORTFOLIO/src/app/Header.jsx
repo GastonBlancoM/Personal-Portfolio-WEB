@@ -78,7 +78,7 @@ export default function Header() {
                         <p className="line-height-3">{t("header.txt-aboutMe-part2")}</p>
                         <div className='mt-4 '>
                             <Button label={t("header.cv-btn")} icon='pi pi-file-pdf' className='mr-2 flipup' onClick={() => window.open('https://react.dev', '_blank')} />
-                            <Button label="LinkedIn" icon='pi pi-linkedin' className='flipup' onClick={() => window.open('https://linkedin.com/in/gastón-b-6a9156235', '_blank')} />
+                            <Button label="LinkedIn" icon='pi pi-linkedin' className='flipup' onClick={() => window.open('https://linkedin.com/in/gastón-blanco-martínez', '_blank')} />
                         </div>
                     </div>
                     <div className='col-fixed relative p-0'>
