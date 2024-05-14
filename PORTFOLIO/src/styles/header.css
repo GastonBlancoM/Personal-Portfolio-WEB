@@ -1,0 +1,58 @@
+.p-card .p-card-title {
+    margin-bottom: 0;
+}
+
+.p-card .p-card-content {
+    padding: 0;
+}
+
+button {
+    background: none;
+    color: var(--primary-500);
+}
+
+button:hover {
+    background: var(--primary-500);
+    color: var(--gray-700);
+}
+
+.h-avatar-ph {
+    max-Width: 100%;
+    width: 390px;
+    position: relative;
+    border-bottom: solid;
+    border-Width: 4px;
+    border-image: linear-gradient(to top right, var(--primary-500), var(--primary-800));
+    border-image-slice: 1;
+}
+
+.h-marco-avatar {
+    max-Width: 100%;
+    width: 390px;
+    bottom: 0;
+    position: absolute;
+    border-Width: 7px;
+    border-image: linear-gradient(to top right, var(--primary-500), var(--primary-800));
+    border-image-slice: 1;
+
+}
+
+.sticky-toolbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.p-selectbutton .p-button {
+    padding-top: 0.1rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.1rem;
+    padding-left: 0.5rem;
+}
+
+.p-selectbutton .p-button .p-focus {
+    border-color: #ffffff;
+    background-color: var(--primary-color); 
+    color: var(--primary-color-text);
+}

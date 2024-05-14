@@ -1,0 +1,55 @@
+{
+    "general":{
+        "title-index":"IT Student"
+    },
+
+    "header":{
+        "subTitle-position":"IT Student",
+        "txt-aboutMe-part1":"I am currently studying a degree in information technology at UTEC Uruguay.",
+        "txt-aboutMe-part2":"I like to understand how things work, develop ideas and certainly tackle new problems.",
+        "cv-btn":"Open CV",
+        "title-skills":"Skills",
+        "title-learning":"Learning"
+    },
+
+    "main":{
+        
+        "title-experience":"Experience",
+        "txt-experience-part1":"In these years of study at UTEC, I have participated in a wide range of development projects, each one more challenging than the last.",
+        "txt-experience-part2":"These projects range from desktop applications to web projects with REST services, as well as Android application development.",
+        "txt-experience-part3":"My experience has spanned both Front-end and Back-end roles.",
+
+        "title-projects":"Projects",
+    
+        "tool-tip":"Go to code",
+        
+        "subTitle-desktop":"User Manager (Desktop version)",
+        "description-desktop":"Desktop Java application for managing UTEC user.",
+        "D-list-1":"Full CRUD",
+        "D-list-2":"Intuitive interface",
+    
+        "subTitle-web":"User Manager (Web version)",
+        "description-web":"Java Web application for managing UTEC users.",
+        "W-list-1":"Full CRUD",
+        "W-list-2":"REST services for synchronization with Android application",
+        "W-list-3":"Intuitive interface",
+
+        "subTitle-android":"Claims Manager",
+        "description-android":"Android application for the management of complaints from UTEC users.",
+        "A-list-1":"Login",
+        "A-list-2":"Full CRUD of claims",
+        "A-list-3":"Fluid navigation",
+        
+        "subTitle-port":"Web Portfolio",
+        "description-port":"Web portfolio developed with new tools.",
+        "F-list-1":"RESPOSIVE Design",
+        "F-list-2":"User friendly interface"
+
+    },
+
+    "footer":{
+        "title-contact":"Contact",
+        "btn-contact":"Copy"
+    }
+    
+}

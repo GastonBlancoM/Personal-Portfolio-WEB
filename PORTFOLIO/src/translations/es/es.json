@@ -1,0 +1,55 @@
+{
+    "general":{
+        "title-index":"Estudiante IT"
+    },
+
+    "header":{
+        "subTitle-position":"Estudiante IT",
+        "txt-aboutMe-part1":"Actualmente cursando una licenciatura en tecnologías de la información en UTEC Uruguay.",
+        "txt-aboutMe-part2":"Me gusta comprender cómo funcionan las cosas, desarrollar ideas y, sin duda alguna, enfrentar nuevos problemas.",
+        "cv-btn":"Abrir CV",
+        "title-skills":"Habilidades",
+        "title-learning":"Aprendiendo"
+    },
+
+    "main":{
+        
+        "title-experience":"Experiencia",
+        "txt-experience-part1":"En estos años de estudio en UTEC, he participado en una amplia gama de proyectos de desarrollo, cada uno más desafiante que el anterior.",
+        "txt-experience-part2":"Estos proyectos abarcan desde aplicaciones de escritorio hasta proyectos web con servicios REST, así como el desarrollo de aplicaciones Android.",
+        "txt-experience-part3":"Mi experiencia ha abarcado roles tanto en Front-end como en Back-end.",
+
+        "title-projects":"Proyectos",
+    
+        "tool-tip":"Ir al código",
+        
+        "subTitle-desktop":"Gestor de usuarios (Versión de escritorio)",
+        "description-desktop":"Aplicación Java de escritorio para la gestión de usuarios UTEC.",
+        "D-list-1":"CRUD Completo",
+        "D-list-2":"Interfaz intuitiva",
+    
+        "subTitle-web":"Gestor de usuarios (Versión web)",
+        "description-web":"Aplicación Java Web para la gestión de usuarios UTEC.",
+        "W-list-1":"CRUD Completo",
+        "W-list-2":"REST services para sincronización con app Android",
+        "W-list-3":"Interfaz intuitiva",
+
+        "subTitle-android":"Gestor de reclamos",
+        "description-android":"Aplicación Android para la gestión de reclamos de usuarios UTEC.",
+        "A-list-1":"Login",
+        "A-list-2":"CRUD de reclamosFull CRUD of claims",
+        "A-list-3":"Navegación fluida",
+        
+        "subTitle-port":"Portfolio web",
+        "description-port":"Portafolio Web desarrollado con nuevas herramientas.",
+        "F-list-1":"Diseño RESPOSIVE",
+        "F-list-2":"Interfaz amigable"
+        
+    },
+
+    "footer":{
+            "title-contact":"Contacto",
+            "btn-contact":"Copiar"
+    }
+
+}
