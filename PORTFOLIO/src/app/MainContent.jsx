@@ -37,10 +37,10 @@ export default function Main() {
   ];
 
   const btnLink = [
-    { desktop_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://react.dev', '_blank')} /> },
-    { web_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://react.dev', '_blank')} /> },
-    { android_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://react.dev', '_blank')} /> },
-    { portfolio_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://react.dev', '_blank')} /> },
+    { desktop_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://github.com/GastonBlancoM/PDT-Proyecto-de-Desarrollo-y-Testing-DESKTOP-JAVA.git', '_blank')} /> },
+    { web_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://github.com/GastonBlancoM/PFT-Proyecto-Final-de-Tecnicatura-WEB-JAVA.git', '_blank')} /> },
+    { android_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://github.com/GastonBlancoM/PFT-Proyecto-Final-de-Tecnicatura-ANDROID-KOTLIN.git', '_blank')} /> },
+    { portfolio_code: <Button icon="pi pi-github" className='py-0 bg-primary' tooltip={t("main.tool-tip")} style={{ paddingLeft: '0.20rem', paddingRight: '0.20rem' }} onClick={() => window.open('https://github.com/GastonBlancoM/Personal-Portfolio-WEB.git', '_blank')} /> },
   ];
 
   const responsiveOptions = [
