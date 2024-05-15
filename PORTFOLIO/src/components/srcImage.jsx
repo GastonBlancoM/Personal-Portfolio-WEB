@@ -32,6 +32,7 @@ import pfolio_1 from '../assets/screenshots/portfolio_web/PortFolio.png'
 
 //CONTENT
 import devImg from '../assets/display/developer.png';
+import compImg from '../assets/display/competences.png';
 
  const icons = {
     javaIcon: javaI,
@@ -69,5 +70,6 @@ const gallery = {
 
 const content = {
     devImg: devImg,
+    compImg: compImg,
 };
 export { icons, profile, gallery, content };

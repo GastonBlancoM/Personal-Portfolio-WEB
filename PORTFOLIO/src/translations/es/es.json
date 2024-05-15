@@ -19,6 +19,14 @@
         "txt-experience-part2":"Estos proyectos abarcan desde aplicaciones de escritorio hasta proyectos web con servicios REST, así como el desarrollo de aplicaciones Android.",
         "txt-experience-part3":"Mi experiencia ha abarcado roles tanto en Front-end como en Back-end.",
 
+        "title-competences":"Competencias",
+        "txt-competences":"Desarrollo y testeo de aplicaciones de pequeño y mediano porte, con acceso a base de datos teniendo en cuenta características, necesidades y tendencias de la industria de TI a nivel nacional.",
+        "competence-list-1":"Programación orientada a objetos en java y java enterprise.",
+        "competence-list-2":"Diseñar e implementar bases de datos de mediana complejidad.",
+        "competence-list-3":"Realizar consultas SQL y programar procedimientos en la Base de Datos.",
+        "competence-list-4":"Planificar, diseñar ejecutar, gestionar defectos y evaluar pruebas.",
+        "competence-list-5":"Programar a nivel de dispositivos móviles y programación web (front end).",
+        
         "title-projects":"Proyectos",
     
         "tool-tip":"Ir al código",

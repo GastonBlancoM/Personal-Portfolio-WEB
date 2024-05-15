@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card } from 'primereact/card';
 import { GiSkills } from "react-icons/gi";
+import { LuMountain } from "react-icons/lu";
 import { Button } from 'primereact/button';
 import { Tooltip } from 'primereact/tooltip';
 import { useTranslation } from "react-i18next";
@@ -50,7 +51,7 @@ export default function Main() {
   ];
 
   const title = (
-    <h3 className='mr-8 ml-8 text-primary-500 '><FaConnectdevelop className='text-2xl'/>{t("main.title-projects")}</h3>
+    <h3 className='mr-8 ml-8 text-primary-500 '><FaConnectdevelop className='text-2xl' />{t("main.title-projects")}</h3>
   );
 
   return (
@@ -68,6 +69,24 @@ export default function Main() {
               <p className="line-height-3">{t("main.txt-experience-part2")}</p>
               <p className="line-height-3">{t("main.txt-experience-part3")}</p>
             </div>
+          </div>
+          <div className='grid align-items-center mr-8 ml-8'>
+            <div className='col '>
+              <h2 className='font-bold m-0 text-primary-500 '><LuMountain /> {t("main.title-competences")}</h2>
+              <p className="line-height-3">{t("main.txt-competences")}</p>
+              <ul class="list-disc">
+                <li>{t("main.competence-list-1")}</li>
+                <li>{t("main.competence-list-2")}</li>
+                <li>{t("main.competence-list-3")}</li>
+                <li>{t("main.competence-list-4")}</li>
+                <li>{t("main.competence-list-5")}</li>
+              </ul>
+            </div>
+
+            <div className='col flex justify-content-center'>
+              <img src={content.compImg} alt="dev-img" className='w-8 mr-8' />
+            </div>
+
           </div>
         </Card>
       </div>
@@ -197,6 +216,7 @@ export default function Main() {
               </ul>
               <div className='inline-flex w-full align-items-center justify-content-end'>
                 <img src={icons.reactIcon} title="React" alt="" style={{ width: '5%' }} />
+                <img src={icons.jscriptIcon} title="React" alt="" style={{ width: '5%' }} />
                 <img src={icons.htmlIcon} title="HTML" alt="" style={{ width: '5%' }} />
                 <img src={icons.cssIcon} title="CSS" alt="" style={{ width: '5%' }} />
               </div>
