@@ -215,7 +215,7 @@ export default function Main() {
               </ul>
               <div className='inline-flex w-full align-items-center justify-content-end'>
                 <img src={icons.reactIcon} title="React" alt="" style={{ width: '5%' }} />
-                <img src={icons.jscriptIcon} title="React" alt="" style={{ width: '5%' }} />
+                <img src={icons.jscriptIcon} title="JavaScript" alt="" style={{ width: '5%' }} />
                 <img src={icons.htmlIcon} title="HTML" alt="" style={{ width: '5%' }} />
                 <img src={icons.cssIcon} title="CSS" alt="" style={{ width: '5%' }} />
               </div>
