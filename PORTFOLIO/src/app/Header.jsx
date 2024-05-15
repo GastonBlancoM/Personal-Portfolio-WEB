@@ -77,7 +77,7 @@ export default function Header() {
                         <p className="line-height-3"> {t("header.txt-aboutMe-part1")}</p>
                         <p className="line-height-3">{t("header.txt-aboutMe-part2")}</p>
                         <div className='mt-4 '>
-                            <Button label={t("header.cv-btn")} icon='pi pi-file-pdf' className='mr-2 flipup' onClick={() => window.open('https://drive.google.com/file/d/1RMERmLveugpVfXUL4TNpLsANIQYoXaD8/view?usp=sharing', '_blank')} />
+                            <Button label={t("header.cv-btn")} icon='pi pi-file-pdf' className='mr-2 flipup' onClick={() => window.open('https://drive.google.com/file/d/1_DPwbtUraCL2uUV-AjFG8Im-c-glbTeo/view?usp=sharing', '_blank')} />
                             <Button label="LinkedIn" icon='pi pi-linkedin' className='flipup' onClick={() => window.open('https://linkedin.com/in/gastón-blanco-martínez', '_blank')} />
                         </div>
                     </div>
