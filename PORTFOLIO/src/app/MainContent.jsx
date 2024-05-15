@@ -67,7 +67,6 @@ export default function Main() {
               <h2 className='font-bold m-0 text-primary-500 '><GiSkills /> {t("main.title-experience")}</h2>
               <p className="line-height-3">{t("main.txt-experience-part1")}</p>
               <p className="line-height-3">{t("main.txt-experience-part2")}</p>
-              <p className="line-height-3">{t("main.txt-experience-part3")}</p>
             </div>
           </div>
           <div className='grid align-items-center mr-8 ml-8'>
