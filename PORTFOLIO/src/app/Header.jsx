@@ -81,10 +81,10 @@ export default function Header() {
                             <Button label="LinkedIn" icon='pi pi-linkedin' className='flipup' onClick={() => window.open('https://linkedin.com/in/gastón-blanco-martínez', '_blank')} />
                         </div>
                     </div>
-                    <div className='col-fixed relative p-0'>
-                        <img src={profile.phFrame} alt="marco-avatar" className='h-marco-avatar border-solid' />
-                        <img src={profile.phMain} alt="avatar-photo" className='h-avatar-ph' />
-                    </div>
+                    {/* <div className='col-fixed relative p-0'> */}
+                        {/* <img src={profile.phFrame} alt="marco-avatar" className='h-marco-avatar border-solid' /> */}
+                        <img src={profile.phMain} alt="avatar-photo " className='h-avatar-ph border-solid' />
+                    {/* </div> */}
                 </div>
             </Card>
         </>

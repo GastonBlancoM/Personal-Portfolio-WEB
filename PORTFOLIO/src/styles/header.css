@@ -21,12 +21,12 @@ button:hover {
     width: 390px;
     position: relative;
     border-bottom: solid;
-    border-Width: 4px;
+    border-Width: 7px;
     border-image: linear-gradient(to top right, var(--primary-500), var(--primary-800));
     border-image-slice: 1;
 }
 
-.h-marco-avatar {
+/* .h-marco-avatar {
     max-Width: 100%;
     width: 390px;
     bottom: 0;
@@ -35,7 +35,7 @@ button:hover {
     border-image: linear-gradient(to top right, var(--primary-500), var(--primary-800));
     border-image-slice: 1;
 
-}
+} */
 
 .sticky-toolbar {
     position: -webkit-sticky;

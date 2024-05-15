@@ -1,3 +1,5 @@
+
+
 body{   
     display: flex;
     justify-content: center;
@@ -14,11 +16,12 @@ sub{
     width: 100%;
     position: fixed;
     z-index: -1;
+    top: 0;
 }
 
 #root{
     max-width: 150vh;
-    position: relative;
+    position: absolute;
     z-index: 99;
-    
+    top: 0;
 }
